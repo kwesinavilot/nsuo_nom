@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nsuo_nom/screens/homescreen.dart';
+import 'package:nsuo_nom/screens/home_screen.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
