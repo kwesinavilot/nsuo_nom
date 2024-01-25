@@ -16,13 +16,11 @@ class ValueProps extends StatelessWidget {
               title: "Effortless Hydration Tracking",
               body:
                   "Easily record how much water you drink throughout the day with a tap of a button. No more manual tracking.",
-              image: const Center(
-                child: Image(
+              image: const Image(
                   image: AssetImage('assets/woman_drinking.gif'),
                   fit: BoxFit.contain,
-                  height: 310,
-                  width: 310,
-                ),
+                  height: 320,
+                  width: 320,
               ),
               decoration: const PageDecoration(
                 imageAlignment: Alignment.center,
@@ -48,7 +46,7 @@ class ValueProps extends StatelessWidget {
           showSkipButton: false,
           showNextButton: true,
           done: const Text("Done"),
-          next: const Text("Next"),
+          next: const Icon(Icons.arrow_forward),
           onDone: () {
             // On button pressed
           },
