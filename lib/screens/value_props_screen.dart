@@ -8,8 +8,8 @@ class ValueProps extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        // color: Colors.red,
-        padding: const EdgeInsets.only(top: 50.0),
+        color: Colors.red,
+        // margin: const EdgeInsets.onl y(top: 200.0, bottom: 0),
         child: IntroductionScreen(
           pages: [
             PageViewModel(
